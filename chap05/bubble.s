@@ -20,7 +20,7 @@ skip:
    jnz loop
    dec %ecx
    jz end
-movl $values, %esi
+   movl $values, %esi
    movl %ecx, %ebx
    jmp loop
 end:
