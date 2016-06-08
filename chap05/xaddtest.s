@@ -2,8 +2,8 @@
 value:
     .int 10
 .section .text
-.globl main
-main:
+.globl _start
+_start:
     nop
     movl $100, %eax
     movl $200, %ebx
