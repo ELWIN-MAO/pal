@@ -12,7 +12,7 @@ loop:
    pushl value(, %edi, 4)
    pushl $output
    call printf
-   add $8, $esp
+   add $8, %esp
    dec %edi
    jns loop
    movl $1, %eax
