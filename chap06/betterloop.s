@@ -6,8 +6,7 @@ output:
 .globl _start
 _start:
    movl $0, %ecx
-   xor %eaxmovl $0, %eax
-@@@TE: Point taken, instruction changed. Thanks. – RKB@@@
+   movl $0, %eax
    jcxz done
 loop1:
    addl %ecx, %eax
